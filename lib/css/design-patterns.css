@@ -1,0 +1,29 @@
+/*
+* General Slides
+*/
+.small-note {
+    color: red;
+    font-size: 0.1em;
+}
+.javascript-color {
+    color: #f0db4f;
+}
+
+
+/*
+* Fragment Styles
+*/
+.grow-in.visible {
+    font-size: 5em;
+    opacity: 1;
+}
+
+/*
+* Slide 2
+*/
+.s2 ul.pattern-list {
+    list-style-type: none;
+}
+.s2 ul.pattern-list li{
+    margin: 0.75em 0;
+}
