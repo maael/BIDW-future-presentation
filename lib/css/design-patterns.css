@@ -1,12 +1,23 @@
 /*
 * General Slides
 */
-.small-note {
-    color: red;
-    font-size: 0.1em;
+ul.bulletless {
+    list-style-type: none;
 }
-.javascript-color {
-    color: #f0db4f;
+ol.spaced-list li, ul.spaced-list li {
+    margin: 0.5em 0;    
+}
+ul.dashed-list li {
+    font-size: 1em;
+    text-indent: -0.35em;
+}
+ul.dashed-list li:before {
+    content: '-';
+    position: relative;
+    left: -0.35em;
+}
+.small {
+	font-size: 0.8em !important; 
 }
 
 
@@ -16,16 +27,6 @@
 .grow-in.visible {
     font-size: 5em;
     opacity: 1;
-}
-
-/*
-* Slide 2
-*/
-.s2 ul.pattern-list {
-    list-style-type: none;
-}
-.s2 ul.pattern-list li{
-    margin: 0.75em 0;
 }
 
 /*
