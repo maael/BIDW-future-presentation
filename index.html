@@ -76,9 +76,8 @@
 						<hr/>
 						<ul class="bulletless spaced-list dashed-list small">
 							<li><b>Operational Reporting -</b> Structured format. Requires understanding of user.</li>
-							<li><b>Ad-hoc Reporting -</b> Aids report creation.</li>
-							<li><b>OLAP Analysis -</b> Precalculated and prestructured information. Data navigation.</li>
-							<li><b>Data Visualisation -</b> Microdecisions, recently popular. Plug and play. Query intensive.</li>
+							<li><b>Ad-hoc Reporting -</b> Aids report creation for a specific business question.</li>
+							<li><b>Data Visualisation -</b> Recently popular. Plug and play. Query intensive.</li>
 							<li><b>Dashboards -</b> High-level view allowing access to details.</li>
 							<li><b>Data Mining,</b> and many others.</li>
 						</ul>
@@ -99,27 +98,32 @@
 						<hr/>
 						<div class="fragment fade-in">
 							<br/>
-							<p><i class="icon-doc-text"></i>A system for reporting and data anaylsis.</p>
+							<p><i class="icon-database"></i>A repository of different sources of data structured for query and analysis.</p>
 						</div>
 					</section>
 					<section>
 						<h4>Data Warehouse Qualities &amp; Benefits</h4>
 						<hr/>
+						<aside class="notes">
+							Other qualities include it being subject-oriented, integrated, time-variant and non-volatile. (Bill Inmon).
+						</aside>
 						<p><i class="icon-code"></i>Back-end, behind-the-scenes.</p>
 						<p><i class="icon-database"></i>Data in one location to simplify access. <br/>
 						<small>This means that the sources and warehouse do not affect each other.</small></p>
 						<p><i class="icon-help"></i>Simplification and centralisation of query logic.</p>
 						<p><i class="icon-cube"></i>Tracks change via historical snapshots of when data changes, useful as transaction systems may not.</p>
-						<p><i class="icon-sitemap"></i>Allows an integrated view of system.</p>
 						<p><i class="icon-cog-alt"></i>Data structure optimised for reading large amounts of data on demand.</p>
 					</section>
 				</section>
 				<section>
 					<section>
-						<h3><i class="icon-plug"></i> How do BI &amp; DW work together?</h3>
+						<h3><i class="icon-plug"></i> How are BI &amp; DW used?</h3>
 					</section>
 					<section>
-						<h4>BI applications access the DW through a BI Portal.</h4>
+						The Business Intelligence applications act as the front end to access and analyse the data held within a Data Warehouse.
+					</section>
+					<section>
+						<h4>A BI Portal acts as the interface for the Data Warehouse and Business Intelligence applications.</h4>
 						<br/>
 						<p class="fragment fade-in"><i class="icon-globe"></i>Usually this is as a browser application.</p>
 					</section>
@@ -157,13 +161,16 @@
 					<section>
 						<h5>Green Computing</h5>
 						<hr/>
-						<p>Ideas on topics of data compression and general processing acceleration for hardware and software generally lead to the idea of lower power consumption, contributing to a greener approach.</p>
+						<p>Ideas on topics of data compression and general processing acceleration for hardware and software generally lead to lower power consumption, contributing to a greener approach.</p>
 					</section>
 					<section>
 						<h5>Green Computing</h5>
 						<hr/>
+						<aside class="notes">
+							As an added benefit, they can also increase performance and efficiency.
+						</aside>
 						<p>Data Warehouses may exist in <b>Data Centers</b>, which have had several best practices guides proposed, such as <a href="http://www1.eere.energy.gov/femp/pdfs/eedatacenterbestpractices.pdf">one by the National Renewable Energy Laboratory for the U.S. Department of Energy</a> in 2011.</p>
-						<p>These guides suggest approaches such as waste heat recycling, on-site generation, cooling systems, and air management. As an added benefit, they can also increase performance and efficiency.</p>
+						<p>These guides suggest approaches such as waste heat recycling, on-site generation, cooling systems, and air management.</p>
 					</section>
 					<section>
 						<h5>Social Networking Services</h5>
@@ -192,7 +199,7 @@
 					<section>
 						<h5>Social Business Intelligence</h5>
 						<hr/>
-						<p>At the moment this is a growing area that's growing in mainly two different directions.</p>
+						<p>At the moment this is a growing area that's branching in two different directions.</p>
 						<ul class="bulletless dashed-list">
 							<li>The first uses social tools to collaborate on business intelligence.</li>
 							<li>The second uses business intelligence tools on the social media itself, internally and externally.</li>
@@ -212,8 +219,19 @@
 						<p>Used with the <b>Storytelling</b> approach as an effective way to convey data.</p>
 					</section>
 					<section>
+						<h5>Storytelling</h5>
+						<hr/>
+						<p>Some may struggle with data-driven decision making because they don’t know the story behind the data.</p>
+						<p>The idea is that the visualisation is something that is created from the story.</p>
+						<p>AIm to influence and enagage on an emotional and logical level.</p>
+						<p>Can allow interactive exploration or perhaps acts as graphical elements with an intended interface.</p>
+					</section>
+					<section>
 						<h5>Mobile BI</h5>
 						<hr/>
+						<aside class="notes">
+							CFO = Chief Financial Officier
+						</aside>
 						<p>There remains issues with this, and Mobile BI is still in the <a href="http://www.informationweek.com/software/information-management/mobile-business-intelligence-best-in-class-secrets-to-success/d/d-id/1074657?">'early adopter'</a> phase, and has yet to fully mature.</p>
 						<p>Some issues include Security Considerations at different levels.</p>
 						<p>Despite this, in a June 2012 CFO Magazine Survey, 89% ranked Mobility as the #1 technology of importance to their company's success over the next three years.</p>
@@ -225,12 +243,6 @@
 						<p>JasperSoft also provided an open source SDK to help build mobile BI apps alongside their own native iPhone, and non-native iPad apps.</p>
 						<p>There are other Mobile BI products, such as <a href="http://www.oracle.com/us/solutions/business-analytics/business-intelligence/mobile/overview/index.html">Oracle Business Intelligence Mobile</a>, <a href="http://www-03.ibm.com/software/products/en/business-intelligence">IBM's Cognos Business Intelligence</a>, and <a href="http://www.tableau.com/products/server">Tableau Server</a>.</p>
 					</section>
-					<section>
-						<h5>Cloud Computing</h5>
-						<hr/>
-						<p>In 2014 <a href="http://www.aberdeen.com/research/8906/rr-analytics-cloud-saas-bi/content.aspx">research</a> indicates that employees are more likely to use cloud-based BI tools compared to traditional tools.</p>
-						<p>Considered to be an important factor by SAP, as they cut their profit in 2014 to accelerate their move into cloud software.</p>
-					</section>
 				</section>
 				<section>
 					<section>
@@ -240,8 +252,7 @@
 						<ul class="bulletless spaced-list dashed-list">
 							<li>General all around improvements to response time, scaling and concurrency.</li>
 							<li>Real-time, or close to it.</li>
-							<li>Open source replacing vendor.</li>
-							<li>Increasing interest in Software-as-a-Service. (SaaS)</li>
+							<li>Open source replacing vendor. (JasperReports, Pentaho)</li>
 							<li>Expanding to use more unstructured data.</li>
 							<li>Even more social media and external data. - intermediaries who rate data quality.</li>
 							<li>An increase in storytelling use in data visualisation.</li>
@@ -269,16 +280,22 @@
 						<aside class="notes">
 							Questioned by some, due to profit hit.
 							Profit hit likely to be temporary, future profits increased.
-							Worth mentioning competition.
+							Worth mentioning competition (Salesforce) and cut to profits.
+							Talk about BusinessObjects.
 						</aside>
-						<p><a href="http://www.cnbc.com/id/102100885">Focusing on the Cloud</a>, with recent acquisitions and the launch of Hana Cloud.</p>
+						<p>In 2014 <a href="http://www.aberdeen.com/research/8906/rr-analytics-cloud-saas-bi/content.aspx">research</a> indicates that employees are more likely to use cloud-based BI tools compared to traditional tools.</p>
+						<p><a href="http://www.cnbc.com/id/102100885">Focusing on the Cloud</a>, with recent acquisitions and the launch of Hana Cloud, which can be used to deploy Business Intelligence. In such a case Hana can be used as a platform and as a data source.</p>
 					</section>
 					<section>
 						<h4>Microsoft</h4>
 						<hr/>
+						<aside class="notes">
+							Similar to IBM Watson analysis and big data.
+						</aside>
 						<p>In 2014 Microsoft released <a href="http://powerbi.com/">PowerBI</a>, their move into the Business Intelligence sector.</p>
 						<p>A key feature of PowerBI is that it provides access to <a href="https://gigaom.com/2013/10/13/a-peek-inside-microsofts-new-design-first-development-strategy/">natural language queries</a>.</p>
 						<p>They are also looking to incorporate the newly launched <a href="https://gigaom.com/2014/06/16/microsoft-to-provide-drag-and-drop-machine-learning-on-azure/">Azure Machine Learning Service</a>.</p>
+						<p>The inclusion of Machine Learning will allow applications to not only provide current status results and responses to queries, but to also begin to make predictions, play out hypothetical scenarios and also to learn to make suggestions.</p>
 					</section>
 				</section>
 				<section>
