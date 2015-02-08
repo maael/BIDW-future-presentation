@@ -1,2 +1,3 @@
 # The future of BI/DW Presentation
-For Motability Operations
+A presentation made in Reveal.js dicussing current and future trends in Business 
+Intelligence and Data Warehousing.
